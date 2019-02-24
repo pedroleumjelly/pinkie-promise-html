@@ -192,6 +192,86 @@
   margin-left: auto;
 }
 
+.promise-content {
+  margin-top: 24px;
+  padding: 4px 24px 32px;
+  background-color: #0002fc;
+  color: #fff;
+}
+
+.email-accept-button {
+  display: block;
+  margin: 24px auto 26px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #379535;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.email-container {
+  padding: 32px 16px;
+  border-top: 4px solid #0002fc;
+}
+
+.email-h1 {
+  font-size: 1.8em;
+}
+
+.email-paragraph {
+  margin-top: 24px;
+  font-size: 1.6em;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+.email-reject-button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #cf2b51;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.div-block-2 {
+  margin-top: 36px;
+}
+
+.bold-text-4 {
+  font-weight: 400;
+}
+
+.promise-success {
+  margin-top: 24px;
+  padding: 4px 24px 32px;
+  background-color: #379535;
+  color: #fff;
+}
+
+.link {
+  font-size: 1.6em;
+}
+
+.div-block-3 {
+  margin-top: 32px;
+  padding: 2px 24px 24px;
+  background-color: #f2f2f2;
+}
+
+.hash-itself {
+  color: #737373;
+  font-weight: 400;
+}
+
+.div-block-4 {
+  margin-top: 24px;
+}
+
 html.w-mod-js *[data-ix="high-five-wiggle"] {
   opacity: 0;
   -webkit-transform: translate(0px, 0px);
@@ -260,5 +340,8 @@ html.w-mod-js *[data-ix="zoom-and-scale"] {
   }
   .bold-text-2 {
     line-height: 0.7em;
+  }
+  .email-h1 {
+    line-height: 1em;
   }
 }
