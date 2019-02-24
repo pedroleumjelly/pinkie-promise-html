@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Sun Feb 24 2019 04:02:27 GMT+0000 (UTC)  -->
 <html data-wf-page="5c71b3e2fd081941e88d957a" data-wf-site="5c71b3e2fd081954878d9579">
 <head>
   <meta charset="utf-8">
@@ -18,7 +20,7 @@
     <div class="logo"><img src="images/logo.png" width="180" srcset="images/logo-p-500.png 500w, images/logo-p-800.png 800w, images/logo-p-1080.png 1080w, images/logo.png 1270w" sizes="(max-width: 479px) 75vw, 180px" alt=""></div>
     <div class="hero-container w-container">
       <h1 class="h1">Create a Pinky Promise</h1>
-      <h4><strong class="h3">Generate a trackable pinky promise with your friends for the promises that matter.</strong></h4>
+      <h4><strong class="h3">Create a trackable promise with your friends for the promises that matter most.</strong></h4>
     </div>
   </div>
   <div>
@@ -28,14 +30,14 @@
           <div class="credentials"><img src="images/high-five-icon.svg" alt="" class="highfive-icon" data-ix="high-five-wiggle-repeat">
             <h3><strong class="h2">Create Your Contract Here</strong></h3>
             <div class="w-row">
-              <div class="w-col w-col-5"><label for="name-2" class="field-label">Your Name</label><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="text-field w-input"><label for="email-2" class="field-label">Your Email</label><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" id="email-2" required=""></div>
+              <div class="w-col w-col-5"><label for="your_name" class="field-label">Your Name</label><input type="text" class="text-field w-input" maxlength="256" name="your_name" data-name="your_name" id="your_name" required=""><label for="your_email" class="field-label">Your Email</label><input type="email" class="text-field w-input" maxlength="256" name="your_email" data-name="your_email" id="your_email" required=""></div>
               <div class="column w-col w-col-2"><img src="images/chevron-mobile-icon.svg" alt="" class="image"><img src="images/chevron-icon.svg" alt="" class="chevron"></div>
-              <div class="w-col w-col-5"><label for="name-3" class="field-label">Recipient&#x27;s Name</label><input type="text" id="name-2" name="name-2" data-name="Name 2" maxlength="256" class="text-field w-input"><label for="email-3" class="field-label">Recipient&#x27;s Email</label><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" id="email-2" required=""></div>
+              <div class="w-col w-col-5"><label for="rec_name" class="field-label">Recipient&#x27;s Name</label><input type="text" class="text-field w-input" maxlength="256" name="rec_name" data-name="rec_name" id="rec_name" required=""><label for="rec_email" class="field-label">Recipient&#x27;s Email</label><input type="email" class="text-field w-input" maxlength="256" name="rec_email" data-name="rec_email" id="rec_email" required=""></div>
             </div>
           </div>
           <div class="separator"></div>
           <div class="contract-terms"><img src="images/message-icon.svg" alt="" class="chat-icon" data-ix="promise-wiggle-repeat">
-            <h3><strong class="h2">What&#x27;s the Promise?</strong></h3><textarea id="field" name="field" placeholder="Example Text" maxlength="5000" class="textarea w-input"></textarea></div>
+            <h3><strong class="h2">What&#x27;s the Promise?</strong></h3><textarea id="promise" name="promise" placeholder="Enter the promise details here. Don&#x27;t forget to add the punishment details for not following through!" maxlength="5000" data-name="promise" required="" class="textarea w-input"></textarea></div>
           <div class="separator"></div>
           <div><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></div>
         </form>
