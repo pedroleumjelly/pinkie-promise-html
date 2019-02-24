@@ -266,10 +266,12 @@
 .hash-itself {
   color: #737373;
   font-weight: 400;
+  word-break: break-all;
 }
 
 .div-block-4 {
   margin-top: 24px;
+  word-break: break-all;
 }
 
 html.w-mod-js *[data-ix="high-five-wiggle"] {
