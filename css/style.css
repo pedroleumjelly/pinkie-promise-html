@@ -1,0 +1,168 @@
+.section {
+  padding-bottom: 302px;
+  background-image: url('../images/pinky-pattern.png'), -webkit-gradient(linear, left top, left bottom, from(#0003ff), to(#0003ff));
+  background-image: url('../images/pinky-pattern.png'), linear-gradient(180deg, #0003ff, #0003ff);
+  background-position: 50% 50%, 0px 0px;
+  background-size: 125px, auto;
+  background-attachment: fixed, scroll;
+}
+
+.hero-container {
+  margin-top: 152px;
+  text-align: center;
+}
+
+.h1 {
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: 3.7em;
+}
+
+.h3 {
+  color: hsla(0, 0%, 100%, .73);
+  font-size: 1.4em;
+}
+
+.body {
+  background-color: #f1f1f1;
+}
+
+.primary-container {
+  margin-top: -135px;
+  padding-top: 32px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #0002fc;
+  background-color: #fff;
+  box-shadow: 0 1px 50px 0 rgba(0, 0, 0, .15);
+}
+
+.highfive-icon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.h2 {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 44px;
+  margin-left: auto;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.separator {
+  height: 2px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  background-color: #d6d6d6;
+  color: #8b8b8b;
+}
+
+.chat-icon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.submit-button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 25px 92px;
+  border-radius: 4px;
+  background-color: #0002fc;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.chevron {
+  display: block;
+  margin-top: 64px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.credentials {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.text-field {
+  height: 48px;
+  margin-bottom: 24px;
+  border: 2px solid #0002fc;
+  border-radius: 4px;
+}
+
+.text-field:active {
+  border-width: 2px;
+  box-shadow: inset 0 0 0 2px rgba(0, 2, 252, .3);
+}
+
+.textarea {
+  border: 2px solid #0002fc;
+  border-radius: 4px;
+  line-height: 20px;
+}
+
+.field-label {
+  font-size: 1.2em;
+}
+
+.column {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image {
+  display: none;
+}
+
+.contract-terms {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+@media (max-width: 991px) {
+  .image {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .chevron {
+    display: none;
+  }
+  .image {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 16px;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 479px) {
+  .credentials {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
